@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Aprop connecta persones grans i famílies amb ajudants verificats del mateix barri per fer la vida quotidiana més fàcil, segura i humana."
+    />
+    <title>Aprop | L'ajuda que necessites, sempre a prop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="./styles-v2.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Salta al contingut principal</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Aprop, inici">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none">
+            <path
+              d="M16 2.8c-5.1 0-9.2 4.1-9.2 9.2 0 6.8 9.2 17.2 9.2 17.2S25.2 18.8 25.2 12c0-5.1-4.1-9.2-9.2-9.2Z"
+              fill="currentColor"
+            />
+            <circle cx="16" cy="12" r="4.1" fill="#fff" />
+            <circle cx="20.9" cy="22.4" r="2.4" fill="#2E9E8A" />
+          </svg>
+        </span>
+        <span>Aprop</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        data-menu-toggle
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Obre el menú</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-navigation" data-nav>
+        <a href="#nosaltres">Nosaltres</a>
+        <a href="#com-funciona">Com funciona</a>
+        <a href="#serveis">Serveis</a>
+        <a href="#confianca">Confiança</a>
+        <a href="#app">App</a>
+        <a href="#testimonis">Testimonis</a>
+      </nav>
+
+      <a class="button button-small button-coral header-cta" href="#cta-final">Demanar ajuda</a>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img
+          class="hero-media"
+          src="./assets/hero-aprop.jpg"
+          alt="Una dona gran passeja amb una ajudant jove per un barri mediterrani"
+        />
+        <div class="hero-overlay"></div>
+
+        <div class="shell hero-shell">
+          <div class="hero-copy reveal">
+            <p class="eyebrow eyebrow-light">Ajudants verificats i formats</p>
+            <p class="local-pill">Disponible al Vallès Oriental</p>
+            <h1 id="hero-title">L'ajuda que necessites, sempre a prop.</h1>
+            <p class="hero-text">
+              Connectem persones grans amb ajudants verificats del mateix barri per fer la vida quotidiana
+              més fàcil, segura i humana.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-coral" href="#cta-final">Necessito ajuda</a>
+              <a class="button button-ghost" href="#confianca">Soc familiar</a>
+            </div>
+          </div>
+
+          <aside class="hero-card reveal" aria-label="Exemple d'un servei disponible">
+            <div class="hero-card-top">
+              <div class="avatar">LS</div>
+              <div>
+                <strong>Laura S.</strong>
+                <span>Ajudant verificada · 0,4 km</span>
+              </div>
+            </div>
+            <div class="rating" aria-label="Valoració de cinc sobre cinc">
+              <span aria-hidden="true">★★★★★</span>
+              <small>5,0 · 24 serveis</small>
+            </div>
+            <div class="task-box">
+              <span>Tasca assignada</span>
+              <strong>Recollida de medicaments</strong>
+            </div>
+            <div class="hero-card-bottom">
+              <div>
+                <strong>5,99 €</strong>
+                <span>servei base</span>
+              </div>
+              <span class="status-pill">Disponible ara</span>
+            </div>
+          </aside>
+        </div>
+
+        <div class="shell trust-bar reveal" aria-label="Motius de confiança">
+          <span>Ajudants verificats</span>
+          <span>Resposta ràpida</span>
+          <span>Valoracions reals</span>
+          <span>Formació obligatòria</span>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Indicadors principals">
+        <div class="shell proof-grid">
+          <div>
+            <strong>1.200+</strong>
+            <span>famílies ja confien en Aprop</span>
+          </div>
+          <div>
+            <strong>4,9/5</strong>
+            <span>valoració mitjana verificada</span>
+          </div>
+          <div>
+            <strong>&lt; 5 min</strong>
+            <span>temps mitjà de resposta</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="nosaltres" aria-labelledby="about-title">
+        <div class="shell about-layout">
+          <div class="about-origin reveal">
+            <p class="eyebrow">Com va començar</p>
+            <h2 id="about-title">Una idea nascuda d'una necessitat propera.</h2>
+            <p>
+              Aprop neix en observar que moltes persones grans volen mantenir la seva autonomia, però
+              necessiten suport puntual per fer tasques quotidianes sense dependre sempre de familiars.
+            </p>
+            <p>
+              Vam veure una oportunitat clara: crear una plataforma de barri que connectés persones grans i
+              famílies amb ajudants verificats, formats i propers. El nom Aprop resumeix aquesta idea:
+              ajuda local, confiança i tracte humà sempre a prop.
+            </p>
+          </div>
+
+          <div class="team-panel reveal" aria-label="Perfil dels emprenedors">
+            <p class="eyebrow">Sobre nosaltres</p>
+            <div class="team-grid">
+              <article class="member-card">
+                <span>AT</span>
+                <h3>Asaad</h3>
+                <p>CEO i CFO. Coordina l'estratègia general, la viabilitat econòmica i el control financer.</p>
+              </article>
+              <article class="member-card">
+                <span>CR</span>
+                <h3>Cristina</h3>
+                <p>Qualitat i atenció al client. Vetlla per la seguretat, el seguiment i la satisfacció del servei.</p>
+              </article>
+              <article class="member-card">
+                <span>NL</span>
+                <h3>Nil</h3>
+                <p>Màrqueting i creixement. S'encarrega de la comunicació, la captació i la imatge d'Aprop.</p>
+              </article>
+              <article class="member-card">
+                <span>PU</span>
+                <h3>Pau</h3>
+                <p>CTO i COO. Lidera la tecnologia, l'app, la web i l'organització operativa de la plataforma.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-light" id="com-funciona" aria-labelledby="steps-title">
+        <div class="shell section-heading reveal">
+          <p class="eyebrow">Com funciona</p>
+          <h2 id="steps-title">Quatre passos, zero complicacions.</h2>
+          <p>
+            El procés està pensat perquè una necessitat quotidiana es resolgui amb la mateixa naturalitat
+            amb què demanaries ajuda a algú de confiança.
+          </p>
+        </div>
+
+        <div class="shell timeline">
+          <article class="timeline-step reveal">
+            <span>01</span>
+            <h3>Publica la necessitat</h3>
+            <p>Explica què cal fer des de l'app o la web en menys d'un minut.</p>
+          </article>
+          <article class="timeline-step reveal">
+            <span>02</span>
+            <h3>Un ajudant proper accepta</h3>
+            <p>Només persones verificades del teu entorn poden respondre al servei.</p>
+          </article>
+          <article class="timeline-step reveal">
+            <span>03</span>
+            <h3>Es realitza el servei</h3>
+            <p>Seguiment clar, pagament segur i comunicació durant tot el procés.</p>
+          </article>
+          <article class="timeline-step reveal">
+            <span>04</span>
+            <h3>Valora l'experiència</h3>
+            <p>Les valoracions reals mantenen la qualitat i fan créixer la confiança.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-cream" id="serveis" aria-labelledby="services-title">
+        <div class="shell section-heading reveal">
+          <p class="eyebrow">Serveis</p>
+          <h2 id="services-title">Ajuda petita. Impacte enorme.</h2>
+          <p>
+            Tres maneres de cuidar l'autonomia del dia a dia amb serveis concrets, preus clars i ajuda
+            propera quan fa falta.
+          </p>
+        </div>
+
+        <div class="shell services-bento">
+          <article class="service-card service-large reveal">
+            <img
+              src="./assets/service-basic.jpg"
+              alt="Una ajudant acompanya un home gran durant una compra al mercat"
+            />
+            <div class="service-copy">
+              <span>Des de 5,99 €</span>
+              <h3>Micro-ajuda bàsica</h3>
+              <p>Compra, farmàcia, baixar la brossa i petits encàrrecs que alleugereixen el dia.</p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <img
+              src="./assets/service-companion.jpg"
+              alt="Una dona gran passeja amb un ajudant per una zona verda del barri"
+            />
+            <div class="service-copy">
+              <span>Des de 12,99 €</span>
+              <h3>Acompanyament</h3>
+              <p>Passejos, visites i desplaçaments curts amb presència tranquil·la.</p>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <img
+              src="./assets/service-urgent.jpg"
+              alt="Un ajudant entrega una bossa de farmàcia a un home gran"
+            />
+            <div class="service-copy">
+              <span>Resposta prioritària</span>
+              <h3>Servei urgent</h3>
+              <p>Quan una necessitat no pot esperar, activem disponibilitat immediata.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section trust-section" id="confianca" aria-labelledby="trust-title">
+        <div class="shell trust-layout">
+          <div class="trust-intro reveal">
+            <p class="eyebrow eyebrow-light">El nostre diferencial</p>
+            <h2 id="trust-title">Confiança que es nota abans de reservar.</h2>
+            <p>
+              Cada ajudant passa per validació, formació i seguiment perquè famílies i persones grans
+              sàpiguen qui ve, què farà i com valorar el servei.
+            </p>
+          </div>
+
+          <div class="trust-stats reveal">
+            <article>
+              <strong>100%</strong>
+              <span>identitat verificada</span>
+            </article>
+            <article>
+              <strong>8 h</strong>
+              <span>de formació obligatòria</span>
+            </article>
+            <article>
+              <strong>4,9</strong>
+              <span>valoració mitjana</span>
+            </article>
+          </div>
+
+          <div class="trust-cards">
+            <article class="glass-card reveal">
+              <h3>Identitat verificada</h3>
+              <p>Documentació contrastada i perfil validat abans de la primera tasca.</p>
+            </article>
+            <article class="glass-card reveal">
+              <h3>Curs obligatori</h3>
+              <p>Tracte amb persones grans, protocols bàsics i bones pràctiques d'atenció.</p>
+            </article>
+            <article class="glass-card reveal">
+              <h3>Valoracions reals</h3>
+              <p>Només poden opinar persones que han completat serveis verificats.</p>
+            </article>
+            <article class="glass-card reveal">
+              <h3>Entorn proper</h3>
+              <p>Ajudants del mateix barri, amb context local i temps de resposta curt.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section app-section" id="app" aria-labelledby="app-title">
+        <div class="shell app-layout">
+          <div class="app-copy reveal">
+            <p class="eyebrow">App</p>
+            <h2 id="app-title">Tot des del mòbil.</h2>
+            <p>
+              Dissenyada per a famílies i persones grans: poques decisions, missatges clars i confiança
+              visible en cada pas.
+            </p>
+            <ul>
+              <li>Reserva en menys d'un minut</li>
+              <li>Seguiment del servei en temps real</li>
+              <li>Perfil complet de cada ajudant</li>
+            </ul>
+          </div>
+
+          <div class="phone-stage reveal" aria-label="Mockups de l'aplicació Aprop">
+            <div class="floating-chip chip-top">Ajudant acceptat</div>
+            <div class="phone phone-back">
+              <div class="phone-screen">
+                <span class="screen-kicker">Avui</span>
+                <strong>3 serveis propers</strong>
+                <div class="screen-row">
+                  <span>Farmàcia</span>
+                  <b>0,4 km</b>
+                </div>
+                <div class="screen-row">
+                  <span>Compra</span>
+                  <b>0,7 km</b>
+                </div>
+                <div class="screen-row">
+                  <span>Acompanyament</span>
+                  <b>1,1 km</b>
+                </div>
+              </div>
+            </div>
+            <div class="phone phone-front">
+              <div class="phone-screen phone-screen-front">
+                <span class="screen-kicker">Servei actiu</span>
+                <strong>Recollida de medicaments</strong>
+                <div class="mini-profile">
+                  <span>LS</span>
+                  <div>
+                    <b>Laura S.</b>
+                    <small>Verificada · 5,0</small>
+                  </div>
+                </div>
+                <div class="progress">
+                  <span></span>
+                </div>
+                <p>Arriba en 6 minuts</p>
+              </div>
+            </div>
+            <div class="floating-chip chip-bottom">Valoració 5,0</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonial-section" id="testimonis" aria-labelledby="testimonial-title">
+        <div class="shell testimonial-layout">
+          <figure class="testimonial-media reveal">
+            <img
+              src="./assets/testimonial-family.jpg"
+              alt="Mare i filla conversen tranquil·lament en un saló lluminós"
+            />
+          </figure>
+
+          <div class="testimonial-copy reveal">
+            <p class="eyebrow">Testimonis</p>
+            <h2 id="testimonial-title">
+              “La meva mare manté la seva autonomia i nosaltres respirem més tranquils.”
+            </h2>
+            <p>
+              “Aprop ens ha resolt petites necessitats que abans es feien grans. Saber qui vindrà, veure
+              que està verificat i poder valorar el servei canvia completament la sensació.”
+            </p>
+            <div class="testimonial-author">
+              <strong>Maria G.</strong>
+              <span>Filla d'una usuària · Vallès Oriental</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-final" id="cta-final" aria-labelledby="cta-title">
+        <div class="shell reveal">
+          <h2 id="cta-title">Prova Aprop amb una primera ajuda senzilla.</h2>
+          <p>Explica què necessites i et connectarem amb una persona verificada del teu entorn.</p>
+          <div class="hero-actions">
+            <a class="button button-white" href="#top">Demanar ajuda</a>
+            <a class="button button-outline-light" href="#confianca">Vull ser ajudant</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#top" aria-label="Aprop, inici">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M16 2.8c-5.1 0-9.2 4.1-9.2 9.2 0 6.8 9.2 17.2 9.2 17.2S25.2 18.8 25.2 12c0-5.1-4.1-9.2-9.2-9.2Z"
+                  fill="currentColor"
+                />
+                <circle cx="16" cy="12" r="4.1" fill="#fff" />
+                <circle cx="20.9" cy="22.4" r="2.4" fill="#2E9E8A" />
+              </svg>
+            </span>
+            <span>Aprop</span>
+          </a>
+          <p>Micro-ajuda segura i humana per a persones grans.</p>
+        </div>
+        <div>
+          <h3>Servei</h3>
+          <a href="#serveis">Serveis</a>
+          <a href="#com-funciona">Com funciona</a>
+          <a href="#confianca">Confiança</a>
+        </div>
+        <div>
+          <h3>Empresa</h3>
+          <a href="#nosaltres">Sobre nosaltres</a>
+          <a href="#app">App</a>
+          <a href="#testimonis">Testimonis</a>
+          <a href="#cta-final">Ser ajudant</a>
+        </div>
+        <div>
+          <h3>Contacte</h3>
+          <a href="mailto:hola@aprop.cat">hola@aprop.cat</a>
+          <a href="#top">Vallès Oriental</a>
+          <a href="#top">Instagram</a>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <span>© 2026 Aprop</span>
+        <div>
+          <a href="#top">Privacitat</a>
+          <a href="#top">Avís legal</a>
+          <a href="#top">Cookies</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
