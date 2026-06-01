@@ -17,7 +17,7 @@
     <script>
       document.documentElement.classList.add("js");
     </script>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles-v2.css" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Salta al contingut principal</a>
@@ -51,6 +51,7 @@
       </button>
 
       <nav class="primary-nav" id="primary-navigation" data-nav>
+        <a href="#nosaltres">Nosaltres</a>
         <a href="#com-funciona">Com funciona</a>
         <a href="#serveis">Serveis</a>
         <a href="#confianca">Confiança</a>
@@ -58,7 +59,7 @@
         <a href="#testimonis">Testimonis</a>
       </nav>
 
-      <a class="button button-small button-coral header-cta" href="#cta-final">Comença avui</a>
+      <a class="button button-small button-coral header-cta" href="#cta-final">Demanar ajuda</a>
     </header>
 
     <main id="main-content">
@@ -73,14 +74,15 @@
         <div class="shell hero-shell">
           <div class="hero-copy reveal">
             <p class="eyebrow eyebrow-light">Ajudants verificats i formats</p>
+            <p class="local-pill">Disponible al Vallès Oriental</p>
             <h1 id="hero-title">L'ajuda que necessites, sempre a prop.</h1>
             <p class="hero-text">
               Connectem persones grans amb ajudants verificats del mateix barri per fer la vida quotidiana
               més fàcil, segura i humana.
             </p>
             <div class="hero-actions">
-              <a class="button button-coral" href="#cta-final">Troba ajuda ara</a>
-              <a class="button button-ghost" href="#com-funciona">Com funciona</a>
+              <a class="button button-coral" href="#cta-final">Necessito ajuda</a>
+              <a class="button button-ghost" href="#confianca">Soc familiar</a>
             </div>
           </div>
 
@@ -135,6 +137,50 @@
         </div>
       </section>
 
+      <section class="section about-section" id="nosaltres" aria-labelledby="about-title">
+        <div class="shell about-layout">
+          <div class="about-origin reveal">
+            <p class="eyebrow">Com va començar</p>
+            <h2 id="about-title">Una idea nascuda d'una necessitat propera.</h2>
+            <p>
+              Aprop neix en observar que moltes persones grans volen mantenir la seva autonomia, però
+              necessiten suport puntual per fer tasques quotidianes sense dependre sempre de familiars.
+            </p>
+            <p>
+              Vam veure una oportunitat clara: crear una plataforma de barri que connectés persones grans i
+              famílies amb ajudants verificats, formats i propers. El nom Aprop resumeix aquesta idea:
+              ajuda local, confiança i tracte humà sempre a prop.
+            </p>
+          </div>
+
+          <div class="team-panel reveal" aria-label="Perfil dels emprenedors">
+            <p class="eyebrow">Sobre nosaltres</p>
+            <div class="team-grid">
+              <article class="member-card">
+                <span>AT</span>
+                <h3>Asaad</h3>
+                <p>CEO i CFO. Coordina l'estratègia general, la viabilitat econòmica i el control financer.</p>
+              </article>
+              <article class="member-card">
+                <span>CR</span>
+                <h3>Cristina</h3>
+                <p>Qualitat i atenció al client. Vetlla per la seguretat, el seguiment i la satisfacció del servei.</p>
+              </article>
+              <article class="member-card">
+                <span>NL</span>
+                <h3>Nil</h3>
+                <p>Màrqueting i creixement. S'encarrega de la comunicació, la captació i la imatge d'Aprop.</p>
+              </article>
+              <article class="member-card">
+                <span>PU</span>
+                <h3>Pau</h3>
+                <p>CTO i COO. Lidera la tecnologia, l'app, la web i l'organització operativa de la plataforma.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section section-light" id="com-funciona" aria-labelledby="steps-title">
         <div class="shell section-heading reveal">
           <p class="eyebrow">Com funciona</p>
@@ -174,8 +220,8 @@
           <p class="eyebrow">Serveis</p>
           <h2 id="services-title">Ajuda petita. Impacte enorme.</h2>
           <p>
-            Tres maneres de cuidar l'autonomia del dia a dia, amb un llenguatge visual més emocional que
-            funcionalista.
+            Tres maneres de cuidar l'autonomia del dia a dia amb serveis concrets, preus clars i ajuda
+            propera quan fa falta.
           </p>
         </div>
 
@@ -222,10 +268,10 @@
         <div class="shell trust-layout">
           <div class="trust-intro reveal">
             <p class="eyebrow eyebrow-light">El nostre diferencial</p>
-            <h2 id="trust-title">La confiança no és un extra. És el producte.</h2>
+            <h2 id="trust-title">Confiança que es nota abans de reservar.</h2>
             <p>
-              Cada ajudant passa per un sistema de validació pensat perquè famílies i persones grans
-              sentin pau abans fins i tot de reservar.
+              Cada ajudant passa per validació, formació i seguiment perquè famílies i persones grans
+              sàpiguen qui ve, què farà i com valorar el servei.
             </p>
           </div>
 
@@ -351,10 +397,10 @@
 
       <section class="cta-final" id="cta-final" aria-labelledby="cta-title">
         <div class="shell reveal">
-          <h2 id="cta-title">Perquè l'ajuda hauria d'estar sempre a prop.</h2>
-          <p>Comença avui i converteix una necessitat puntual en una experiència segura i humana.</p>
+          <h2 id="cta-title">Prova Aprop amb una primera ajuda senzilla.</h2>
+          <p>Explica què necessites i et connectarem amb una persona verificada del teu entorn.</p>
           <div class="hero-actions">
-            <a class="button button-white" href="#top">Comença avui</a>
+            <a class="button button-white" href="#top">Demanar ajuda</a>
             <a class="button button-outline-light" href="#confianca">Vull ser ajudant</a>
           </div>
         </div>
@@ -387,6 +433,7 @@
         </div>
         <div>
           <h3>Empresa</h3>
+          <a href="#nosaltres">Sobre nosaltres</a>
           <a href="#app">App</a>
           <a href="#testimonis">Testimonis</a>
           <a href="#cta-final">Ser ajudant</a>
